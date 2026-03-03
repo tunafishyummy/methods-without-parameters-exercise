@@ -11,20 +11,18 @@ public class Book {
 
         Scanner bookGet = new Scanner(System.in);
 
-        Book book1 = new Book();
-
-        System.out.println("Enter book ID: ");
-        book1.bookId = bookGet.nextInt(); 
+        System.out.print("Enter book ID: ");
+        this.bookId = bookGet.nextInt(); 
         bookGet.nextLine();
 
-        System.out.println("Enter book's title: ");
-        book1.title = bookGet.nextLine(); 
+        System.out.print("Enter book's title: ");
+        this.title = bookGet.nextLine(); 
 
-        System.out.println("Enter book ISBN: ");
-        book1.ISBN = bookGet.nextLine(); 
+        System.out.print("Enter book ISBN: ");
+        this.ISBN = bookGet.nextLine(); 
 
-        System.out.println("Enter book category: ");
-        book1.category = bookGet.nextLine(); 
+        System.out.print("Enter book category: ");
+        this.category = bookGet.nextLine(); 
 
     }
 

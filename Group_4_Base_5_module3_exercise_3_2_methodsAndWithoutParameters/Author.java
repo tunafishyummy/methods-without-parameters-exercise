@@ -9,14 +9,14 @@ public class Author {
 
         Author author1 = new Author();
 
-        System.out.println("Enter author ID: ");
+        System.out.print("Enter author ID: ");
         author1.authorId = authorGet.nextInt(); 
         authorGet.nextLine();
 
-        System.out.println("Enter author's last name: ");
+        System.out.print("Enter author's last name: ");
         author1.lastName = authorGet.nextLine(); 
 
-        System.out.println("Enter author's first name: ");
+        System.out.print("Enter author's first name: ");
         author1.firstName = authorGet.nextLine(); 
 }
 }
