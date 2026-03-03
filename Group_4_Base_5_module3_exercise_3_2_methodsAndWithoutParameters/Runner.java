@@ -25,8 +25,7 @@ public class Runner {
     System.out.println("\n ----Registration Receipt----");
     System.out.println("Book Title:" + book1.title);
     System.out.println("Author:" + author1.lastName +" "+ author1.firstName );
-    System.out.println("Borrower:" + borrower1.getfirstname() + " " + borrower1.getlastName());
-    System.out.println("");
+    System.out.println("Borrower:" + borrower1.getfirstname() + " " + borrower1.getlastName() + "\n");
 
     }
 
