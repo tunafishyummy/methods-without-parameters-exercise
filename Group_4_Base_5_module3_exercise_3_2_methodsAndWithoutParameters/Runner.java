@@ -1,5 +1,9 @@
 package Group_4_Base_5_module3_exercise_3_2_methodsAndWithoutParameters;
- /* Lastname, Firstname
+ /*     Galang, Patrick James
+        Garcia, Dolf Philippe
+        Lamio, Adinoel Rodge
+        Payawal, Matthew James
+        Ramos, Erus
         ITE 012-CS12S4
         March 2, 2026
         Topic:Application of Methods with and without Parameters */
